@@ -1,6 +1,6 @@
 -module(rebar_github_resource).
 
--behaviour(rebar_resource_v2).
+-behaviour(rebar_resource).
 
 -export([lock/2
         ,download/3
