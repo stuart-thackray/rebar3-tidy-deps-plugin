@@ -26,7 +26,7 @@ init(Type, _State) ->
 
 lock(AppInfo, _) ->
     check_type_support(),
-    lock_(rebar_app_info:dir(AppInfo), rebar_app_info:source(AppInfo)).
+    lock_(AppInfo, AppInfo).
 
 lock_(AppDir, {git, Url, _}) ->
     lock_(AppDir, {git, Url});
