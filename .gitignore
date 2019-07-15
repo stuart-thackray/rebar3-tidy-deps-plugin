@@ -1,0 +1,7 @@
+/ebin/
+.
+_build
+rebar.lock
+.settings
+*.swp
+.project
